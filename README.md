@@ -37,6 +37,9 @@ Evaluate the trained model on test images and verify the classification accuracy
 ### Register Number:212224040055
 
 ```python
+from google.colab import drive
+drive.mount('/content/drive')
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
